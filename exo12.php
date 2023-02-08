@@ -8,6 +8,8 @@
 
 $arr = ['Mickael'=> 'FRA','Virgile' => 'ESP', 'Marie-Claire' => 'ENG'];
 
+
+
 function hello($tableau){
     
     foreach($tableau as $name => $value){
@@ -21,6 +23,9 @@ function hello($tableau){
     }
 }
 
+hello($arr);
+$arr2 = ksort($arr);
+echo  "<br>";
 
 hello($arr);
  
